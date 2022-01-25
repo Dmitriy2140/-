@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Моя первая настоящая HTML-страничка</title>
+</head>
+<body>
+	<script>
+		var alphabet = "абвгдёжзийклмнопрстуфхцччшщъьэюя";
+		var randomString = alphabet[Math.floor(Math.random()*alphabet.length)];
+		while (randomString.length < 6) {
+			randomString += alphabet[Math.floor(Math.random()*alphabet.length)];
+		}
+		console.log(randomString);		
+	</script>
+</body>
+</html>
